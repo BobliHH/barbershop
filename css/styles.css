@@ -6,9 +6,10 @@
     --title-color:#303030;
     --text-color:#555555;
     --text-on-dark-bg:#9da4bd;
+    --section-gray-bg:#7f7f7f;
 }
 
-body {
+body{
     font-family:"Open sans", sans-serif;
     letter-spacing: 0.02em;
     font-size: 18px;
@@ -90,18 +91,18 @@ body {
 
 /* Heero section styling */
 
-.hero-section {
+.hero-section{
     background-color: var(--dark-bg);
 }
 
-.hero-subtitle {
+.hero-subtitle{
     color:var(--subtitle-color);
     font-weight: 600;
     font-size: 11px;
     line-height: 1.36;
 }
 
-.hero-title {
+.hero-title{
     color:var(--white-color);
     font-weight: 700;
     font-size: 72px;
@@ -115,7 +116,7 @@ body {
 
 /* sections styling */
 
-.section-subtitle {
+.section-subtitle{
     color:var(--title-color);
     font-weight: 600;
     font-size: 11px;
@@ -123,11 +124,11 @@ body {
 
 }
 
-.dark-section .section-subtitle {
+.dark-section .section-subtitle{
     color: var(--subtitle-color);
 }
 
-.section-title {
+.section-title{
     color: var(--title-color);
     font-weight: 700;
     font-size: 42px;
@@ -138,17 +139,17 @@ body {
     color: var(--white-color);
 }
 
-.section-text {
+.section-text{
     color:var(--text-color);
 }
 
-.section-text-small {
+.section-text-small{
     color:var(--text-color);
     font-size: 14px;
     line-height: 1.85;
 }
 
-.section-button {
+.section-button{
     color:var(--title-color);
     background-color: transparent;
     border: 1px solid var(--highlight-color);
@@ -171,11 +172,11 @@ body {
 
 /* Services section styling */
 
-.services-list {
+.services-list{
 
 }
 
-.services-list-item {
+.services-list-item{
     color: var(--text-on-dark-bg);
 }
 
